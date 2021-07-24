@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UILabelBetterGlow_Example' do
+  pod 'UILabelBetterGlow', :path => '../'
+
+  target 'UILabelBetterGlow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
