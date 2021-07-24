@@ -41,7 +41,11 @@ self.view.addSubview(label)
 
 ## Installation
 
-UILabelBetterGlow is available through [CocoaPods](https://cocoapods.org). To install
+- Simply drag and drop the `UILabelBetterGlow.swift` file to your project
+
+or
+
+- UILabelBetterGlow is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
