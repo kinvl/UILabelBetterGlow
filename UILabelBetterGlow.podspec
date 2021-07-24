@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UILabelBetterGlow'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UILabelBetterGlow.'
+  s.version          = '1.0.0'
+  s.summary          = '✨ UILabelBetterGlow helps you make outer and inner glow for your UILabels.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +19,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UILabelBetterGlow is easy to use pod, that helps you make outer and inner glow for your labels. Supports setting things up in code and in Storyboards as well.
                        DESC
 
   s.homepage         = 'https://github.com/kinvl/UILabelBetterGlow'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kinvl' => 'kinvl@icloud.com' }
+  s.author           = { 'Krzysztof Kinal' => 'kinvl@icloud.com' }
   s.source           = { :git => 'https://github.com/kinvl/UILabelBetterGlow.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

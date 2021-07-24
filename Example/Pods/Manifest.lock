@@ -1,0 +1,16 @@
+PODS:
+  - UILabelBetterGlow (0.1.0)
+
+DEPENDENCIES:
+  - UILabelBetterGlow (from `../`)
+
+EXTERNAL SOURCES:
+  UILabelBetterGlow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UILabelBetterGlow: 699f87d1590986eb624baba493bb4d1c638349fa
+
+PODFILE CHECKSUM: 617d64c6b59ad9464ea22612e207effbe31cd4f0
+
+COCOAPODS: 1.10.1

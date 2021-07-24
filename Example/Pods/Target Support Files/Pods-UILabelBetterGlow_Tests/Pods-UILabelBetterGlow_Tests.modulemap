@@ -1,0 +1,6 @@
+framework module Pods_UILabelBetterGlow_Tests {
+  umbrella header "Pods-UILabelBetterGlow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

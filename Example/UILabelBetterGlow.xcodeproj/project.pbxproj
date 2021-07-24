@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0E7A8B1614B441E6D35B53FE /* Pods-UILabelBetterGlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelBetterGlow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UILabelBetterGlow_Tests/Pods-UILabelBetterGlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4FDE0B08CDC73DAE772B8932 /* UILabelBetterGlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UILabelBetterGlow.podspec; path = ../UILabelBetterGlow.podspec; sourceTree = "<group>"; };
+		4FDE0B08CDC73DAE772B8932 /* UILabelBetterGlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UILabelBetterGlow.podspec; path = ../UILabelBetterGlow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* UILabelBetterGlow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelBetterGlow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* UILabelBetterGlow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelBetterGlow_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		84EB716DDF0F2AC6F79882BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		84EB716DDF0F2AC6F79882BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A039F1F3A1929746EB0AD88D /* Pods_UILabelBetterGlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILabelBetterGlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68C934580ED50682F031A4A /* Pods-UILabelBetterGlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelBetterGlow_Example.release.xcconfig"; path = "Target Support Files/Pods-UILabelBetterGlow_Example/Pods-UILabelBetterGlow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D41510A57C2C6026B7EB72DF /* Pods_UILabelBetterGlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILabelBetterGlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D73DF786D8F04A8607D6AA4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D73DF786D8F04A8607D6AA4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFBFECD32602C48A9742AD1E /* Pods-UILabelBetterGlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelBetterGlow_Example.debug.xcconfig"; path = "Target Support Files/Pods-UILabelBetterGlow_Example/Pods-UILabelBetterGlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFD5C4B3E7BD420702BB5C43 /* Pods-UILabelBetterGlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelBetterGlow_Tests.release.xcconfig"; path = "Target Support Files/Pods-UILabelBetterGlow_Tests/Pods-UILabelBetterGlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				0E7A8B1614B441E6D35B53FE /* Pods-UILabelBetterGlow_Tests.debug.xcconfig */,
 				FFD5C4B3E7BD420702BB5C43 /* Pods-UILabelBetterGlow_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,11 +212,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 5238GJ38UR;
+						LastSwiftMigration = 1250;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 5238GJ38UR;
+						LastSwiftMigration = 1250;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,13 +480,14 @@
 			baseConfigurationReference = DFBFECD32602C48A9742AD1E /* Pods-UILabelBetterGlow_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5238GJ38UR;
 				INFOPLIST_FILE = UILabelBetterGlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +496,14 @@
 			baseConfigurationReference = A68C934580ED50682F031A4A /* Pods-UILabelBetterGlow_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5238GJ38UR;
 				INFOPLIST_FILE = UILabelBetterGlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E7A8B1614B441E6D35B53FE /* Pods-UILabelBetterGlow_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5238GJ38UR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelBetterGlow_Example.app/UILabelBetterGlow_Example";
 			};
 			name = Debug;
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFD5C4B3E7BD420702BB5C43 /* Pods-UILabelBetterGlow_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5238GJ38UR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,7 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelBetterGlow_Example.app/UILabelBetterGlow_Example";
 			};
 			name = Release;

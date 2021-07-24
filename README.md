@@ -22,7 +22,7 @@ pod 'UILabelBetterGlow'
 
 ## Author
 
-kinvl, kinvl@icloud.com
+Krzysztof Kinal, kinvl@icloud.com
 
 ## License
 

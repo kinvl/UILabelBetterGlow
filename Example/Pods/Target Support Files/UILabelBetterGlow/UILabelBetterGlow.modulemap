@@ -1,0 +1,6 @@
+framework module UILabelBetterGlow {
+  umbrella header "UILabelBetterGlow-umbrella.h"
+
+  export *
+  module * { export * }
+}
