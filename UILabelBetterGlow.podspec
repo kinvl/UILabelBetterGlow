@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UILabelBetterGlow'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '✨ UILabelBetterGlow helps you make outer and inner glow for your UILabels.'
   s.swift_version    = '5.0'
 
