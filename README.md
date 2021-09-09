@@ -1,4 +1,7 @@
 # UILabelBetterGlow
+
+![UILBGBanner](/Assets/UILBGBanner.png "UILBGBanner")
+
 ✨ An easy way to make outer and inner glow for your UILabels.
 
 [![CI Status](https://img.shields.io/travis/kinvl/UILabelBetterGlow.svg?style=flat)](https://travis-ci.org/kinvl/UILabelBetterGlow)
